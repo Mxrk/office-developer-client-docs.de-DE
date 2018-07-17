@@ -20,7 +20,7 @@ Project Online ist ein Office 365-Dienst, den geschäftlichen Anforderungen Unte
 |ECF-Name|ECF-Typ|Zuordnung|Beispielwert|
 |:-----|:-----|:-----|:-----|
 |Begründung  <br/> |TEXT  <br/> |Project  <br/> |Endbenutzer können meine Daten und Gesundheitsdaten mit Ergebnissen, die eine Testversion Integrität und eine individuelle Aktion enthalten aufzuzeichnen. Der Plan ist es, bald besser Integrität zu schaffen.  <br/> |
-|Schweregrads  <br/> |TEXT  <br/> |Project  <br/> |Low  <br/> |
+|Schweregrads  <br/> |TEXT  <br/> |Project  <br/> |Niedrig  <br/> |
 |ROI  <br/> |ANZAHL  <br/> |Project  <br/> |2.10  <br/> |
 |Gesamtkosten  <br/> |KOSTEN  <br/> |Project  <br/> |$1,031,514  <br/> |
 |Starten Sie Team  <br/> |TEXT  <br/> |Ressourcen  <br/> |Ja  <br/> |
@@ -28,11 +28,11 @@ Project Online ist ein Office 365-Dienst, den geschäftlichen Anforderungen Unte
 |Kennzeichnungsstatus  <br/> |KENNZEICHNUNG  <br/> |Aufgabe  <br/> |Nein  <br/> |
 |Integrität  <br/> |TEXT  <br/> |Aufgabe  <br/> |Nicht angegeben  <br/> |
    
-ECFs werden auf der Project Web Application (PWA)-Instanz von Projekt, Ressource oder Vorgang externe definiert. Noch, können sie ein Projekt, Ressource oder Vorgang zugeordnet werden. Dieser Artikel bietet eine grundlegende Aufstellung verwenden ein Beispiel für benutzerdefinierte Felder und liegt der Schwerpunkt auf Abrufen ECF Werte. 
+ECFs werden auf der Project Web Application (PWA)-Instanz von Projekt, Ressource oder Vorgang extern definiert. Noch, können sie einem Projekt, Vorgang oder einer Ressource zugeordnet werden. Dieser Artikel bietet eine grundlegende Aufstellung und verwenden ein Beispiel für benutzerdefinierte Felder - dort liegt der Schwerpunkt auf das Abrufen der ECF Werte. 
   
-Sie können das vollständige Beispiel unter herunterladen https://github.com/OfficeDev/Project-CSOM-Read-Enterprise-CustomFields.
+Sie können das vollständige Beispiel unter folgendem Link herunterladen: https://github.com/OfficeDev/Project-CSOM-Read-Enterprise-CustomFields.
   
-Project Online unterstützt darüber hinaus lokale benutzerdefinierte Felder als nur-Lese-Entitäten, die speziell für die bestimmten Projekt, Ressource oder Vorgang. Weitere Informationen über lokale benutzerdefinierte Felder, finden Sie im Beispiel https://github.com/OfficeDev/Project-CSOM-Read-Local-CustomFields\.
+Project Online unterstützt darüber hinaus lokale benutzerdefinierte Felder als nur-Lese-Entitäten, die speziell für die bestimmten Projekte, Ressourcen oder Vorgang zugeordnet werden können. Weitere Informationen über lokale benutzerdefinierte Felder, finden Sie im Beispiel https://github.com/OfficeDev/Project-CSOM-Read-Local-CustomFields\.
   
 ## <a name="background-materials"></a>Hintergrund Materialien (engl.)
 
