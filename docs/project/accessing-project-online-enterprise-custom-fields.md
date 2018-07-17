@@ -15,11 +15,11 @@ ms.locfileid: "19796175"
 ---
 # <a name="accessing-project-online-enterprise-custom-fields"></a>Zugreifen auf Project Online benutzerdefinierte Enterprise-Felder
 
-Project Online ist ein Office 365-Dienst, den geschäftlichen Anforderungen Unternehmen erweitern können. Ein Erweiterungsbereich sind die benutzerdefinierten Enterprise-Felder (ECFs). ECFs sind typisierte Wertfelder zu denen Projekte, Aufgaben und Ressourcen hinzugefügt werden können. In der folgenden Tabelle sind ECFs, die mit Projekten, Ressourcen und Aufgaben zuordnen, und enthält ein Beispiel für einen Wert für eine Instanz dieser ECF:
+Project Online ist ein Office 365-Dienst, den geschäftlichen Anforderungen Unternehmen erweitern können. Ein Erweiterungsbereich sind die benutzerdefinierten Enterprise-Felder (ECFs). ECFs sind typisierte Wertfelder zu denen Projekte, Aufgaben und Ressourcen hinzugefügt werden können. In der folgenden Tabelle sind ECFs, die mit Projekten, Ressourcen und Aufgaben zugeordnet sind, und enthält ein Beispiel für einen Wert für eine Instanz dieser ECF:
   
 |ECF-Name|ECF-Typ|Zuordnung|Beispielwert|
 |:-----|:-----|:-----|:-----|
-|Begründung  <br/> |TEXT  <br/> |Project  <br/> |Endbenutzer können meine Daten und Gesundheitsdaten mit Ergebnissen, die eine Testversion Integrität und eine individuelle Aktion enthalten aufzeichnen Plan bald besser Integrität.  <br/> |
+|Begründung  <br/> |TEXT  <br/> |Project  <br/> |Endbenutzer können meine Daten und Gesundheitsdaten mit Ergebnissen, die eine Testversion Integrität und eine individuelle Aktion enthalten aufzuzeichnen. Der Plan ist es, bald besser Integrität zu schaffen.  <br/> |
 |Schweregrads  <br/> |TEXT  <br/> |Project  <br/> |Low  <br/> |
 |ROI  <br/> |ANZAHL  <br/> |Project  <br/> |2.10  <br/> |
 |Gesamtkosten  <br/> |KOSTEN  <br/> |Project  <br/> |$1,031,514  <br/> |
