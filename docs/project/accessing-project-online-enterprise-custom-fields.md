@@ -70,21 +70,21 @@ Das Wörterbuch PwaECF speichert das Projekt, die auf der PWA-Ebene ECFs definie
 
 ## <a name="main-method"></a>Main-Methode
 
-Die Main-Methode verwaltet den Ablauf der Anwendung. Als initialisiert Main mit einer anderen Anwendung, die die Project Online-CSOM verwenden den Projekt-Kontext. 
+Die Main-Methode verwaltet den Ablauf der Anwendung. Wie bei anderen Anwendungen, die das Project Online CSOM verwenden, initialisiert Main den Projektkontext.
   
-1. Rufen Sie ab und Listen Sie der ECFs in Project Online PWA auf.
+1. Rufen Sie ab und Listen Sie die ECFs in Project Online PWA auf.
     
    Diese Funktionalität ist in der ListPWACustomFields-Methode implementiert.
     
 2. Projekte mit benutzerdefinierten Feldern und nicht benutzerdefinierten Felder abrufen.
     
-   Beim Abrufen von Projekten mit ECFs muss der abfrageanforderung mit dem Project Online-Dienst die folgenden Elemente enthalten: 
+   Beim Abrufen von Projekten mit ECFs muss die Abfrageanforderung mit dem Project Online-Dienst die folgenden Elemente enthalten: 
     
-   - **IncludeCustomFields** &ndash; Dieses Element fordert den Dienst aus, um eine Auflistung von PublishedProjects zurückzugeben, wobei jedes veröffentlichtes Projekt enthält eine Erweiterung, die benutzerdefinierte Felder unterstützt. Wenn dieses Element angegeben ist, gibt Project Online PublishedProject-Objekte, die keine benutzerdefinierten Felddaten enthalten.
+   - **IncludeCustomFields** &ndash; Dieses Element fordert den Dienst auf, eine Auflistung von PublishedProjects zurückzugeben, wobei jedes veröffentlichtes Projekt eine Erweiterung enthält, die benutzerdefinierte Felder unterstützt. Wenn dieses Element angegeben ist, gibt Project Online PublishedProject-Objekte, die keine benutzerdefinierten Felddaten enthalten.
     
-   - **IncludeCustomFields.CustomFields** &ndash; dieses Element fordert den Dienst auf die Objekte PublishedProject mit CustomFields Daten auffüllen.
+   - **IncludeCustomFields.CustomFields** &ndash; dieses Element fordert den Dienst auf die Objekte PublishedProject mit CustomFields Daten aufzufüllen.
     
-   Die folgende Anforderung gibt an, das Projekt-Id und Name, als auch die Objekt-Erweiterung für benutzerdefinierte Felder und die Werte für benutzerdefinierte Felder.
+   Die folgende Abfrage gibt die Projekt-ID und den Namen sowie die Objekterweiterung für benutzerdefinierte Felder und die Werte der benutzerdefinierten Felder an.
     
    ```cs
         var projBlk = projContext.LoadQuery(
